@@ -4,4 +4,4 @@
 1.git clone https://github.com/Zbara/notifications-parser.git
 2. cd ./notifications-parser
 3. composer install
-4. Добавить команду ./bin/console parse:notifications
+4. Добавить команду на крон ПОЛНЫЙ ПУТЬ до файла /bin/console parse:notifications
