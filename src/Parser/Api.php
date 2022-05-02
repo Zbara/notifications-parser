@@ -26,7 +26,8 @@ class Api
     {
         try {
             $response = $this->httpClient->request('GET', 'https://expo.chikoroko.art/token/notifications-paginator/', [
-                'body' => []
+                'body' => [],
+                //'proxy' => 'http://:@127.0.0.1:8888'
             ]);
             if (Response::HTTP_OK === $response->getStatusCode()) {
                 return $response->getContent();
