@@ -52,6 +52,8 @@ class Notifications
                     file_put_contents(__DIR__ . '/../../var/current.txt', $dom->filter('.data-block__container')->link()->getNode()->getAttribute('href'));
 
                 } else dump('Нет отправки');
+
+                sleep(600);
             }
         }
     }

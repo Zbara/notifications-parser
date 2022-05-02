@@ -1,0 +1,7 @@
+Версия PHP 8.0 и выше, основной код парсинга находится по src/Parser/Notifications.php
+
+
+1.git clone https://github.com/Zbara/notifications-parser.git
+2. cd ./notifications-parser
+3. composer install
+4. Добавить команду ./bin/console parse:notifications
