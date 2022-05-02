@@ -1,0 +1,19 @@
+telegram_bot_api:
+  # Proxy (optional) :
+  #async_requests: false
+
+  # Development section:
+  development:
+    # implement in next version
+    # Telegram user_id of developers accounts
+    # developers_id: [1977820584]
+    # If this mode is enabled, the robot only responds to the developers
+    maintenance:
+      text: "The robot is being repaired! Please come back later."
+  # Bots:
+
+  bots:
+    sender:
+      token: '%env(TELEGRAM_TOKEN)%'
+      maintenance: false
+  default: 'sender'
