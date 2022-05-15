@@ -53,7 +53,7 @@ class Notifications
 
                 } else dump('Нет отправки');
 
-                sleep(600);
+                sleep(300);
             }
         }
     }
